@@ -15,6 +15,7 @@ tags : [camera, third person view]
 ####up向量计算
 这里第三个参数的计算是纯数学问题，结果可以以后拿来直接用，就先写在这里。
 ![image](http://github.com/wunf/Wunf.github.io/raw/master/pictures/p1.jpg)
+
 这里假设物体中心为坐标原点，其他情况可以通过平移后处理再平移回去解决。如图所示，要求的向量为up向量。观察后发现，**up**向量与**po**向量和**oy**向量（y轴正向）共面，且**up**与**po**正交。于是，设
 	**up** = **po** + x * **oy** 
 	又 **up** · **po** = 0
