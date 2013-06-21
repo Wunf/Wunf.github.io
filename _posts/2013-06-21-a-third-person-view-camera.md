@@ -14,5 +14,5 @@ tags : [camera, third person view]
 无论是glu提供的OPENGL固定管线lookat函数还是传递给shader的View矩阵，一般的参数接口都是三个。第一个是相机位置中心坐标，第二个是相机指向的目标坐标，第三个是相机头顶方向的up向量。第二个参数由模型矩阵决定，可以看做是已经确定的，第一个参数又鼠标位置确定，首先要解决的问题就是根据这两个参数计算出第三个参数。然后还有个问题涉及到鼠标运动和球面上相机位置之间的关系。
 ####up向量计算
 这里第三个参数的计算是纯数学问题，结果可以以后拿来直接用，就先写在这里。
-![image](http://github.com/wunf/Wunf.github.io/tree/master/_posts/p1.jpg)
+![image](http://github.com/wunf/Wunf.github.io/raw/master/pictures/p1.jpg)
 如图所示
