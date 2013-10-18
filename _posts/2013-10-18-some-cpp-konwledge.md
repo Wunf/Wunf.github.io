@@ -3,7 +3,7 @@ layout: post
 category : cpp related
 title : "最近查过的一些C++知识"
 tagline: "每天学一点"
-tags : [camera, third person view]
+tags : [cpp, typedef]
 ---
 {% include JB/setup %}
 
